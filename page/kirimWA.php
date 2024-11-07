@@ -123,7 +123,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send'])) {
 function sendRequestToApiwa($data)
 {
     // $url = 'http://localhost/sendwa/apiwa.php';
-    $url = 'http://localhost/api/SendWAForclient/api/apiwa.php';
+    $url = 'http://localhost/apiwa/SendWAForClient/api/apiwa.php';
     $curl = curl_init();
 
     curl_setopt_array($curl, array(
